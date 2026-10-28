@@ -55,8 +55,8 @@ config:
     type: CSV
 info:
   longDescription: null
-  name: tool-transformer-date
+  name: transformer-date
   shortDescription: Normalizes date strings and Unix timestamps to a consistent YYYY-MM-DD HH:MM:SS format.
-  slug: tool-transformer-date
+  slug: transformer-date
   sourceUrl: https://github.com/FedLearnNet/tool-transformer-date
   type: DATA_TRANSFORMATION

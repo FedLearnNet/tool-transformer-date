@@ -1,4 +1,4 @@
-# tool-transformer-date
+# transformer-date
 
 Normalizes date strings and Unix timestamps to a consistent YYYY-MM-DD HH:MM:SS format.
 
