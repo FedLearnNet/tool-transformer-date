@@ -32,7 +32,7 @@ config:
     type: CSV
   output:
   - delimiter: ','
-    description: Output column schema. input string representing a 
+    description: Output column schema. input string representing a
       date/datetime.
     hasHeader: true
     maxValue: null
