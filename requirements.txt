@@ -1,0 +1,2 @@
+# SDK imported as pyfedappwrap; includes runtime dependencies.
+FL-Net-Python-Tool-API~=0.7.15.dev0

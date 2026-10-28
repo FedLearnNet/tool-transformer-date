@@ -1,0 +1,62 @@
+config:
+  hyperparams:
+  - default: value
+    description: input string representing a date/datetime.
+    maxValue: null
+    minValue: null
+    name: column
+    options: []
+    pattern: null
+    type: STRING
+  input:
+  - delimiter: ','
+    description: Input column schema. input string representing a date/datetime.
+    hasHeader: true
+    maxValue: null
+    minValue: null
+    mode: null
+    name: input
+    required: false
+    shape: null
+    tabularSchema:
+      allowOnlyNumbers: null
+      columns: null
+      maxColumns: null
+      maxRows: null
+      minColumns: null
+      minRows: null
+      nullPolicy: null
+      prohibitedNulls: null
+      requiredColumns:
+      - column
+    type: CSV
+  output:
+  - delimiter: ','
+    description: Output column schema. input string representing a 
+      date/datetime.
+    hasHeader: true
+    maxValue: null
+    minValue: null
+    mode: null
+    name: output
+    required: false
+    shape: null
+    tabularSchema:
+      allowOnlyNumbers: null
+      columns: null
+      maxColumns: null
+      maxRows: null
+      minColumns: null
+      minRows: null
+      nullPolicy: null
+      prohibitedNulls: null
+      requiredColumns:
+      - column
+    type: CSV
+info:
+  longDescription: null
+  name: tool-transformer-date
+  shortDescription: Normalizes date strings and Unix timestamps to a consistent YYYY-MM-DD HH:MM:SS format.
+  slug: tool-transformer-date
+  sourceUrl: https://github.com/FedLearnNet/tool-transformer-date
+  type: DATA_TRANSFORMATION
