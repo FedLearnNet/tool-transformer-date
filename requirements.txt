@@ -1,2 +1,1 @@
-# SDK imported as pyfedappwrap; includes runtime dependencies.
-FL-Net-Python-Tool-API~=0.7.15.dev0
+# No additional runtime dependencies; the Docker base image provides the FL-Net API.
